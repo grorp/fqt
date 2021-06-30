@@ -4,12 +4,16 @@
 	"description": "Tiny (67 lines of code!) template engine with the same syntax as EJS",
 	"author": "Gregor Parzefall <gregor.parzefall@posteo.de>",
 	"license": "GPL-3.0-or-later",
-	"devDependencies": {
-		"typescript": "^4.3.4"
-	},
+	"type": "module",
 	"main": "./dist/fqt.js",
 	"types": "./dist/fqt.d.ts",
+	"bin": "./dist/cli.js",
+	"devDependencies": {
+		"@types/node": "^15.12.5",
+		"typescript": "^4.3.4"
+	},
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"watch": "tsc --watch"
 	}
 }
