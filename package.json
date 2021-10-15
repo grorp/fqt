@@ -1,7 +1,7 @@
 {
 	"name": "fqt",
 	"version": "1.0.2",
-	"description": "Tiny (67 lines of code!) template engine with the same syntax as EJS",
+	"description": "Tiny (67 lines of code!) template engine with the same syntax as EJS.",
 	"author": "Gregor Parzefall <gregor.parzefall@posteo.de>",
 	"license": "GPL-3.0-or-later",
 	"repository": "github:grorp/fqt",
